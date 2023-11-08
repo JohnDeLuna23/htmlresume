@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2 - HTML Elements and Forms</title>
+</head>
+<body>
+    <!-- 3 Images -->
+    <h2>My 3 images I liked online.</h2>
+    <p>1.Chandler Bing</p>
+    <img src="https://media0.giphy.com/media/fA81FF4mdE6lgeoJwb/200w.gif?cid=6c09b9522slnqw2dc4w04cer5ay6wseloj37fxeo9ptj33jo&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="chandler bing">
+    <p>2.Agent Peralta</p>
+    <img src="https://media2.giphy.com/media/KxiRwO7tqXCTDVKobo/giphy.gif" alt="Noice">
+    <p>3.Spider-Man Miles Morales</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV7xiaCmVY_huusSiaiqLLVVfqb3x2oCNQ5g&usqp=CAU" alt="miles morales">
+    <br>
+    <br>
+    <hr>
+    <!-- Weekly Table Schedule -->
+    <h2>Weekly table Schedule</h2>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Morning</th>
+            <th>Afternoon</th>
+            <th>Evening</th>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>Doing Chores</td>
+            <td>Go to Church</td>
+            <td>Family Dinner date</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Early Morning Jog</td>
+            <td>Study</td>
+            <td>Gaming</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Early Morning Jog</td>
+            <td>Chores</td>
+            <td>Study</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Make breakfast</td>
+            <td>Go to gym</td>
+            <td>Date night</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Early Morning Jog</td>
+            <td>Free Time</td>
+            <td>Gaming</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Early Morning job</td>
+            <td>Study</td>
+            <td>Gaming</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>Free time</td>
+            <td>Date</td>
+            <td>Gaming</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>Service Feedback</h1>
+    <form>
+        <!-- Informations -->
+        <div>
+        <label for="fname">Name:</label>
+        <input type="text" placeholder="Ex.Jane Smith" id="fname" required> 
+        <label for="eadd">Email Address:</label>
+        <input type="email" placeholder="name@domain.com" id="eadd" required>
+        </div>
+        <br>
+        <!-- Feedback -->
+        <label for="fback">Feedback:</label>
+        <div>
+            <textarea id="fback" cols="66" rows="20"></textarea>
+        </div>
+        <br>
+        <br>
+        <!-- Question on how discovered -->
+        <div>
+        <label>How did you know about our product and services?</label>
+        <p>Social Media:</p>
+        <input type="radio" name="How did you know about our product and services?"> 
+        <span>Facebook</span>
+        <input type="radio" name="How did you know about our product and services?"> 
+        <span>Instagram</span>
+        <input type="radio" name="How did you know about our product and services?"> 
+        <span>Twitter(X)</span>
+        <input type="radio" name="How did you know about our product and services?"> 
+        <span>Tiktok</span>
+        
+        <p>Online Shops:</p>
+
+        <input type="radio" name="How did you know about our product and services?"> 
+        <span>Lazada</span>
+        <input type="radio" name="How did you know about our product and services?"> 
+        <span>Shoppee</span>
+        <input type="radio" name="How did you know about our product and services?"> 
+        <span>Tiktok Shop</span>
+        <input type="radio" name="How did you know about our product and services?"> 
+        <span>Other Shop</span>
+        <input type="text" name="How did you know about our product and services?" placeholder="Optional">
+        </div>  
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
